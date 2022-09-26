@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: azure;
+    line-height: 1.5;
+    color: #000000;
+    margin: 0px;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+@media (max-width: 550px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #584f4f;
+    margin: 0px;
+}
+
+.info-text h3 {
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin: 15px 0px;
+}
+
+.card h3 {
+    margin-bottom: 25px;
+}
+
+.bg-yellow {
+    background: rgb(252, 252, 113);
+}
+
+.bg-green {
+    background: #78f7ab;
+}
+
+.avatar {
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+a:active {
+    color: orangered;
+}
+
+a:visited {
+    color: purple;
+}
+
+.btn {
+    background-color: black;
+    border: none;
+    color: rgb(255,255,255);
+    padding: 15px 20px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.85;
+    color: rgb(126, 126, 123);
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #41231c;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: rgb(61, 58, 58);
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #584f4f;
+}
+
+.form-rol {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.form-rol .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+
+.form-rol .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 550px) {
+    .form-rol {
+        display: block;
+    }
+
+    .form-rol .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box; 
+    border: none;   
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
